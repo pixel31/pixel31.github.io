@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    position: fixed;
+    z-index: 999;
+    .logo{
+        text-decoration: none;
+        color: #580858 ;
+        font-size: 1.8em;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    .navig a{
+        text-decoration: none;
+        padding-left: 35px;
+        color: #580858;
+        font-size: 1.1em;
+        font-weight: 500;
+    }
+    .navig a:hover{
+        color: #1d003c;
+    }
+}
+
+section{
+    padding: 100px 200px;
+}
+
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    background: url(background.jpg) no-repeat ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    h2{
+        color: #fff;
+        font-size: 4.5em;
+        color: #4D074D;
+        font-weight: 800;
+    }
+    h3{
+        color: #fff;
+        font-size: 1.4em;
+        margin-left: 15px;
+        margin-bottom: 35px;
+    }
+    .downbtn{
+        background-color: #4D074D;
+        color: #fff;
+        display: inline-block;
+        padding: 1em 2em;
+        margin-left: 40px;
+        margin-bottom: 35px;
+        border-radius: 15px;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-size: 1.1em;
+        transition: 1s ease;
+    }
+    .downbtn:hover{
+        transform: scale(1.2);
+        background-color: #1d003c;
+    }
+    .links a{
+        color: #fff;
+        display: inline-block;
+        margin-left: 1.35em;
+        padding-left: 8px ;
+        font-size: 1.4em;
+        transition: 1s;
+    }
+    .links a:hover{
+        transform: scale(1.3);
+    }
+}
+
+.title{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 750;
+    color: #4D074D ;
+    margin-bottom: 60px;
+}
+
+.cards{
+    background-color: #000018;
+}
+
+.font-awesomee{
+    margin-top:15px ;
+    width: 55%;      
+}
+
+.font-awesomeee{
+    margin-top:15px ;
+    width: 68%;      
+}
+
+
+.icon{
+    color: #390039 ;
+    font-size: 5.5em;
+    margin-bottom: 20px;
+
+}
+
+/*  */
+svg {
+    width: 100px; /* عرض SVG */
+    height: 100px; /* ارتفاع SVG */
+}
+
+/* تحديد لون الرسم داخل SVG */
+svg path {
+    fill: #390039;
+}
+
+/* تحديد حجم النص داخل SVG */
+text {
+    font-size: 5.5em;
+}
+
+/* تحديد هامش أسفل للعناصر داخل SVG */
+svg * {
+    margin-bottom: 20px;
+}
+
+/*  */
+
+.icon {
+    color: #390039;
+    font-size: 5.5em;
+    margin-bottom: 20px;
+}
+/*  */
+
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    .card{
+        background-color: #fff;
+        width: 21.25em;
+        text-align: center;
+        box-shadow: 0 0px 35px rgba(1 1 1 /35%);
+        border-radius: 30px;
+        padding: 1.8em 2.5em;
+        margin: 15px;
+        transition: 1s ease;
+        .icon img{
+            color: #390039 ;
+            font-size: 5.5em;
+            margin-bottom: 20px;
+        }
+        .info h3{
+            color: #4D074D ;
+            font-size: 1.5em;
+            font-weight: 750;
+            margin-bottom: 10px;
+        }
+        .info p{
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        .downbtn{
+            background-color: #4D074D;
+            color: #fff;
+            display: inline-block;
+            padding: 1em 4em;
+            text-align: center;
+            border-radius: 15px;
+            text-decoration: none;
+            letter-spacing: 1px;
+            font-size: 1.1em;
+            transition: 0.5s ease;
+        }
+        .downbtn:hover{
+            background-color: #1d003c;
+        }
+
+    }
+    .card:hover{
+        transform: scale(1.15);
+    }
+}
+
